@@ -11,7 +11,7 @@ server.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname + '/public/index.html'))
 });
 
-server.use('/api', apiRouter)
+server.use('/api', apiRouter);
 
 server.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`)
