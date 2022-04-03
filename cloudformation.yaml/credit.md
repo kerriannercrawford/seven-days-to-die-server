@@ -1,0 +1,1 @@
+Inspo for these cloudformation files came from [this](https://github.com/rupertbg/aws-7days-server) repo.
